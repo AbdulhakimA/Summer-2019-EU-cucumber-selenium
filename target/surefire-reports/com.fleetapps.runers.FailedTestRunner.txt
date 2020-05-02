@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.fleetapps.runers.FailedTestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.743 s <<< FAILURE! - in com.fleetapps.runers.FailedTestRunner
-login as sales manager(user should able to login)  Time elapsed: 13.74 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<Dashboard[f]> but was:<Dashboard[]>
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fleetapps.runers.FailedTestRunner

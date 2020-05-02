@@ -87,6 +87,7 @@ public class Step_definitions {
         System.out.println(dashboardPage.pageSubTitle.getText());
 
         Assert.assertEquals(title,dashboardPage.pageSubTitle.getText());
+
     }
 
 }

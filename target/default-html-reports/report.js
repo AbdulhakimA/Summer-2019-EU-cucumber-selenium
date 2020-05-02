@@ -56,10 +56,8 @@ formatter.match({
   "location": "com.fleetapps.step_definitions.Step_definitions.the_user_able_to_login()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003cDashboard[f]\u003e but was:\u003cDashboard[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.fleetapps.step_definitions.Step_definitions.the_user_able_to_login(Step_definitions.java:39)\n\tat ✽.the user able to login(file:///Users/hakim/Desktop/Summer-2019-EU-cucumber-selenium/src/test/resources/features/login.feature:16)\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
