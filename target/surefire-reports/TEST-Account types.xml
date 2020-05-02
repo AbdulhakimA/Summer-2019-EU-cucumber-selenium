@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Account types" time="54.695" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/test-classes:/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/classes:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/hakim/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hakim/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/hakim/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hakim/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hakim/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hakim/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hakim/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hakim/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/hakim/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/hakim/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/hakim/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/hakim/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/hakim/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/hakim/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/hakim/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/hakim/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hakim/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/hakim/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/hakim/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-junit/5.6.0/cucumber-junit-5.6.0.jar:/Users/hakim/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-core/5.6.0/cucumber-core-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-gherkin/5.6.0/cucumber-gherkin-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.6.0/cucumber-gherkin-vintage-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/hakim/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-plugin/5.6.0/cucumber-plugin-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/docstring/5.6.0/docstring-5.6.0.jar:/Users/hakim/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/hakim/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-java/5.6.0/cucumber-java-5.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/surefire/surefirebooter16950605234275722992.jar /Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/surefire 2020-05-02T19-22-18_166-jvmRun1 surefire12041055292501017126tmp surefire_09326667958792575962tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/test-classes:/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/classes:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/hakim/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/hakim/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hakim/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/hakim/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/hakim/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/hakim/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/hakim/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/hakim/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/hakim/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/hakim/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/hakim/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/hakim/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/hakim/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/hakim/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/hakim/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/hakim/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/hakim/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/hakim/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/hakim/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/hakim/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/hakim/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-junit/5.6.0/cucumber-junit-5.6.0.jar:/Users/hakim/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-core/5.6.0/cucumber-core-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-gherkin/5.6.0/cucumber-gherkin-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.6.0/cucumber-gherkin-vintage-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/hakim/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-plugin/5.6.0/cucumber-plugin-5.6.0.jar:/Users/hakim/.m2/repository/io/cucumber/docstring/5.6.0/docstring-5.6.0.jar:/Users/hakim/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/hakim/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hakim/.m2/repository/io/cucumber/cucumber-java/5.6.0/cucumber-java-5.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hakim"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium/target/surefire/surefirebooter16950605234275722992.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="hakim"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/hakim/.m2/repository"/>
+    <property name="cucumber.options" value="--tags @smoke"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kp/p_xgsm5s3m52p96c25658txm0000gn/T/"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/Users/hakim/Desktop/inteliji/Summer-2019-EU-cucumber-selenium"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/hakim/.m2/repository/webdriver/geckodriver/macos/0.26.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/hakim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="salas manager login" classname="Account types" time="23.627">
+    <failure message="expected:&lt;A[ll A]ccounts&gt; but was:&lt;A[]ccounts&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<A[ll A]ccounts> but was:<A[]ccounts>
+]]></failure>
+    <system-out><![CDATA[Accounts
+]]></system-out>
+    <system-err><![CDATA[1588440139811	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kp/p_xgsm5s3m52p96c25658txm0000gn/T/rust_mozprofileF9gIzs"
+1588440140497	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588440141066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588440141066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588440141066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588440141066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588440143464	Marionette	INFO	Listening on port 53502
+1588440143511	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 02, 2020 7:22:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588440153355	Marionette	WARN	TimedPromise timed out after 200 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+Sleep@chrome://marionette/content/sync.js:282:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+JavaScript error: http://app.fleetapps.io/bundles/orosync/js/content-manager.js?version=e723d063, line 262: TypeError: url is undefined
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroui/js/app/models/page-model", needed by: controllers/page-controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroemail/js/app/models/email-notification/email-notification-model", needed by: oroemail/js/app/models/email-notification/email-notification-collection
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroemail/js/app/views/email-notification/email-notification-collection-view", needed by: oroemail/js/app/components/email-notification-component
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosidebar/js/app/views/widget-picker-modal-view", needed by: orosidebar/js/app/views/sidebar-view
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroemail/js/app/views/email-notification/email-notification-count-view", needed by: oroemail/js/app/components/email-notification-component
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosidebar/js/app/views/sidebar-widget-container/widget-container-view", needed by: orosidebar/js/app/views/sidebar-view
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "bowerassets/base64/base64", needed by: base64
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "jquery.mCustomScrollbar", needed by: orosidebar/js/app/views/sidebar-view
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosidebar/js/app/views/widget-setup-modal-view", needed by: orosidebar/js/app/views/sidebar-view
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroemail/js/app/views/email-notification/mobile-email-notification-view", needed by: oroemail/js/app/components/email-notification-component
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroui/js/app/models/base/routing-collection", needed by: oroemail/js/app/models/email-notification/email-notification-collection
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "oroform/js/optional-validation-handler", needed by: oroform/js/optional-validation-groups-handler
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosidebar/js/sidebar-constants", needed by: orosidebar/js/app/models/sidebar-model, orosidebar/js/app/views/sidebar-view
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosidebar/js/app/models/sidebar-widget-container-model", needed by: orosidebar/js/app/models/sidebar-widget-container-collection
+http://requirejs.org/docs/errors.html#scripterror
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[FirefoxDriver: firefox on MAC (4f78f202-37a2-c841-b20d-170901738268)] -> css selector: div[class='loader-mask shown']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'hakims-MBP.home', ip: 'fe80:0:0:0:12:c9af:ba45:a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 81427, moz:profile: /var/folders/kp/p_xgsm5s3m5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4f78f202-37a2-c841-b20d-170901738268
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.fleetapps.pages.BasePage.waitUntilLoaderScreenDisappear(BasePage.java:62)
+	at com.fleetapps.step_definitions.Step_definitions.the_title_contains(Step_definitions.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+1588440161855	Marionette	INFO	Stopped listening on port 53502
+]]></system-err>
+  </testcase>
+  <testcase name="store manager login" classname="Account types" time="31.068">
+    <failure message="expected:&lt;[Campaigns]&gt; but was:&lt;[Dashboard]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Campaigns]> but was:<[Dashboard]>
+]]></failure>
+    <system-out><![CDATA[Dashboard
+]]></system-out>
+    <system-err><![CDATA[1588440162750	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kp/p_xgsm5s3m52p96c25658txm0000gn/T/rust_mozprofileAyNAnQ"
+1588440163217	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588440163668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588440163668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588440163669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588440163669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588440165685	Marionette	INFO	Listening on port 53939
+1588440165724	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 02, 2020 7:22:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1588440168403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[FirefoxDriver: firefox on MAC (ae0a4bf5-610b-2048-bee9-06e7a06f3160)] -> css selector: div[class='loader-mask shown']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'hakims-MBP.home', ip: 'fe80:0:0:0:12:c9af:ba45:a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 75.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403170909, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 81476, moz:profile: /var/folders/kp/p_xgsm5s3m5..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae0a4bf5-610b-2048-bee9-06e7a06f3160
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.fleetapps.pages.BasePage.waitUntilLoaderScreenDisappear(BasePage.java:62)
+	at com.fleetapps.step_definitions.Step_definitions.the_title_contains(Step_definitions.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+1588440193118	Marionette	INFO	Stopped listening on port 53939
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orosync/js/content/grid-builder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orodatagrid/js/totals-builder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orodatagrid/js/inline-editing/builder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orodatagrid/js/appearance/builder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://app.fleetapps.io/bundles/npmassets/requirejs/require.js?version=e723d063, line 168: Error: Script error for "orodatagrid/js/grid-views-builder"
+http://requirejs.org/docs/errors.html#scripterror
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -12,7 +12,7 @@ Feature: Contacts Page
 
 
 
-
+@smoke
     Scenario: login as a given user
       When the  user login using following credentials
       |username  |user1      |

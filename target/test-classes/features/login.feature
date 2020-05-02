@@ -1,7 +1,7 @@
-@regression
+@smoke
 Feature:user should able to login
 
-
+@login
   Scenario: login as a driver
     Given the user on the login page
     When the user enter Driver information
@@ -9,7 +9,7 @@ Feature:user should able to login
 
 
 
-    @salesM @login @fleet_apps
+
     Scenario: login as sales manager
       Given the user on the login page
       When the user enter sales manager information

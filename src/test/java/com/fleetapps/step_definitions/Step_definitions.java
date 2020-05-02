@@ -30,6 +30,7 @@ public class Step_definitions {
         String password=ConfigurationReader.get("password");
        loginPage.login(username,password);
 
+
     }
 
     @Then("the user able to login")

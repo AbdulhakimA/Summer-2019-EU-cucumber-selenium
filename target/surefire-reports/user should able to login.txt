@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: user should able to login
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 38.408 s <<< FAILURE! - in user should able to login
+login as a driver(user should able to login)  Time elapsed: 14.966 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Loading...]>
+
+login as sales manager(user should able to login)  Time elapsed: 12.313 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Loading...]>
+
+login as store manager(user should able to login)  Time elapsed: 11.128 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard]> but was:<[Loading...]>
+

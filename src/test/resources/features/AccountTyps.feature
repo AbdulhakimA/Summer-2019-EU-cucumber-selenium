@@ -1,13 +1,13 @@
 
 
   Feature: Account types
-    @wip
+
     Scenario: driver user
       Given the user login as a "driver"
       When the user navigates "Activities" "Calendar Events"
       Then the title contains "Calendar Events"
 
-    @wip
+    @smoke
       Scenario: salas manager login
         Given the user login as a "salesM"
         When the user navigates "Customers" "Accounts"
@@ -15,11 +15,11 @@
 
 
 
-    @wip
+      @smoke
     Scenario: store manager login
       Given the user login as a "storeM"
       When the user navigates "Marketing" "Campaigns"
-      Then the title contains "Campaignsj"
+      Then the title contains "Campaigns"
 
 
       Scenario Outline: login with different users
